@@ -1,5 +1,5 @@
 import cv2
-
+#Open webcam
 cap = cv2.VideoCapture(0)
 
 cap.set(3,640)
