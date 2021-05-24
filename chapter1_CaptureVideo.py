@@ -1,5 +1,5 @@
 import cv2
-
+#Importing and showing a video
 cap = cv2.VideoCapture("Resources/Video.mp4")
 while True:
     success, img = cap.read()
